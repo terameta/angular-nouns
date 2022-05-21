@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AngularNounsComponent } from './angular-nouns.component';
+import { NgNounComponent } from './ng-noun.component';
 
-describe('AngularNounsComponent', () => {
-  let component: AngularNounsComponent;
-  let fixture: ComponentFixture<AngularNounsComponent>;
+describe('NgNounComponent', () => {
+  let component: NgNounComponent;
+  let fixture: ComponentFixture<NgNounComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AngularNounsComponent ]
+      declarations: [ NgNounComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AngularNounsComponent);
+    fixture = TestBed.createComponent(NgNounComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

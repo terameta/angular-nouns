@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AngularNounsService } from './angular-nouns.service';
+import { NgNounService } from './ng-noun.service';
 
-describe('AngularNounsService', () => {
-  let service: AngularNounsService;
+describe('NgNounService', () => {
+  let service: NgNounService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AngularNounsService);
+    service = TestBed.inject(NgNounService);
   });
 
   it('should be created', () => {

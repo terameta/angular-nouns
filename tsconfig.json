@@ -5,6 +5,12 @@
     "paths": {
       "angular-nouns": [
         "dist/angular-nouns"
+      ],
+      "ng-noun": [
+        "dist/ng-noun"
+      ],
+      "ng-nouns": [
+        "dist/ng-nouns"
       ]
     },
     "baseUrl": "./",

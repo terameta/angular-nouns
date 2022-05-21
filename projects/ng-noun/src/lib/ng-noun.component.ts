@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'an-angular-nouns',
+  selector: 'nn-ng-noun',
   template: `
     <p>
-      angular-nouns works!
+      ng-noun works!
     </p>
   `,
   styles: [
   ]
 })
-export class AngularNounsComponent implements OnInit {
+export class NgNounComponent implements OnInit {
 
   constructor() { }
 
