@@ -11,6 +11,9 @@
       ],
       "ng-nouns": [
         "dist/ng-nouns"
+      ],
+      "ng-simple-alert": [
+        "dist/ng-simple-alert"
       ]
     },
     "baseUrl": "./",

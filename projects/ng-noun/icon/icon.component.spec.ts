@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgNounComponent } from './ng-noun.component';
+import { IconComponent } from './icon.component';
 
-describe('NgNounComponent', () => {
-	let component: NgNounComponent;
-	let fixture: ComponentFixture<NgNounComponent>;
+describe('IconComponent', () => {
+	let component: IconComponent;
+	let fixture: ComponentFixture<IconComponent>;
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			declarations: [NgNounComponent],
+			declarations: [IconComponent],
 		}).compileComponents();
 
-		fixture = TestBed.createComponent(NgNounComponent);
+		fixture = TestBed.createComponent(IconComponent);
 		component = fixture.componentInstance;
 		fixture.detectChanges();
 	});
