@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { NgNounComponent } from './ng-noun.component';
+import { IconComponent } from './ng-noun-icon.component';
 
-@NgModule({
-	declarations: [NgNounComponent],
+@NgModule( {
+	declarations: [ IconComponent ],
 	imports: [],
-	exports: [NgNounComponent],
-})
-export class NgNounModule {}
+	exports: [ IconComponent ],
+} )
+export class NgNounModule { }
