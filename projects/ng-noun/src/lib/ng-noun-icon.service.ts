@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Icon } from './icons';
+// import { Icon } from './icons';
 
 @Injectable( { providedIn: 'root' } )
 export class IconService {
@@ -8,7 +8,7 @@ export class IconService {
 
 	constructor() { }
 
-	public registerIcons = ( icons: Icon[] ): void => {
+	public registerIcons = ( icons: any[] ): void => {
 
 		for ( const icon of icons ) {
 			console.log( icon );
@@ -20,7 +20,7 @@ export class IconService {
 
 	public getIcon ( iconName: string ): string | undefined {
 		if ( !this.registry.has( iconName ) ) {
-			console.warn( `We could not find the dinosaur Icon with the name ${ iconName }, did you add it to the Icon registry?` );
+			console.warn( `We could not find the Icon with the name ${ iconName }, did you add it to the Icon registry?` );
 		}
 		return this.registry.get( iconName );
 	}

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-// import * as icons from 'projects/ng-noun/src/lib/icons';
+import { nniSignIn, nniUser } from './icons';
 import { IconService } from 'projects/ng-noun/src/public-api';
-import { dinosaurIconsArtist, dinosaurIconsChef } from 'projects/ng-noun/src/lib/icons';
 
 @Component( {
 	selector: 'app-root',
@@ -19,6 +18,10 @@ export class AppComponent {
 		// 	console.log( ( icons as any )[ icon ] );
 		// 	this.iconList.push( ( icons as any )[ icon ].name );
 		// }
-		this.iconService.registerIcons( [ dinosaurIconsArtist, dinosaurIconsChef ] );
+		console.log( nniSignIn );
+		console.log( nniUser );
+		this.iconList.push( nniUser.name );
+		this.iconList.push( nniSignIn.name );
+		this.iconService.registerIcons( [ nniSignIn, nniUser ] );
 	}
 }
