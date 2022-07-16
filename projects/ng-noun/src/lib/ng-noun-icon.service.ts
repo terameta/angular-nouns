@@ -11,7 +11,6 @@ export class IconService {
 	public registerIcons = ( icons: any[] ): void => {
 
 		for ( const icon of icons ) {
-			console.log( icon );
 			this.registry.set( icon.name, icon.data );
 		}
 

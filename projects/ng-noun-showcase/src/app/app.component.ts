@@ -14,12 +14,6 @@ export class AppComponent {
 
 	constructor( private iconService: IconService ) {
 
-		// for ( const icon of Object.keys( icons ) ) {
-		// 	console.log( ( icons as any )[ icon ] );
-		// 	this.iconList.push( ( icons as any )[ icon ].name );
-		// }
-		console.log( nniSignIn );
-		console.log( nniUser );
 		this.iconList.push( nniUser.name );
 		this.iconList.push( nniSignIn.name );
 		this.iconService.registerIcons( [ nniSignIn, nniUser ] );
